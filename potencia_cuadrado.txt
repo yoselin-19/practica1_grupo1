@@ -2,3 +2,8 @@ public int potencia_Cuadrado (double numero) {
 	double resultado = Math.pow(2, numero);
 	return resultado;
 }
+
+public double raiz_cuadrada (double numero) {
+	double resultado = Math.sqrt(numero);
+	return resultado;
+}
