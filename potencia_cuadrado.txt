@@ -8,3 +8,13 @@ public double raiz_cuadrada (double numero) {
 	return resultado;
 }
 
+public double potencia_cubo(double numero) {
+	 double valor = numero * numero * numero;
+   return valor;
+}
+
+public double raiz_cubica(double numero) {
+	 double valor = Math.pow(numero, 1/3); 
+   return valor;
+}
+
